@@ -1,0 +1,13 @@
+{
+  "train_rows": 20216100,
+  "train_buildings": 1449,
+  "train_min_timestamp": "2016-01-01 00:00:00",
+  "train_max_timestamp": "2016-12-31 23:00:00",
+  "test_rows": 41697600,
+  "test_min_timestamp": "2017-01-01 00:00:00",
+  "test_max_timestamp": "2018-12-31 23:00:00",
+  "electricity_rows": 12060910,
+  "electricity_buildings": 1413,
+  "electricity_zero_pct": 4.4,
+  "duplicate_business_keys": 0
+}

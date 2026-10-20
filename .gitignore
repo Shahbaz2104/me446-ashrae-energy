@@ -1,0 +1,40 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
+kaggle.json
+*.log
+
+# LaTeX build products
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex.gz
+
+# Large or externally sourced artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+data/processed/*.parquet
+models/*.joblib
+data/dashboard/tableau_data/*.csv
+reports/tables/*predictions*.csv
+
+# Compact artifacts required by the deployed Streamlit app
+!data/interim/building_metadata.parquet
+!data/interim/weather_train_filled.parquet
+!data/processed/model_dataset.parquet
+!models/final_model.joblib
+!data/dashboard/tableau_data/building_summary.csv
+!data/dashboard/tableau_data/error_by_primary_use.csv
+!data/dashboard/tableau_data/error_by_reading_band.csv
+!data/dashboard/tableau_data/error_by_site.csv
+!data/dashboard/tableau_data/feature_importance.csv
+!data/dashboard/tableau_data/generalization_building_holdout.csv
+!data/dashboard/tableau_data/model_comparison.csv
+!data/dashboard/tableau_data/unseen_case_predictions.csv

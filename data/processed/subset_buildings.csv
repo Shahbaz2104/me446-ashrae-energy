@@ -1,0 +1,121 @@
+building_id,site_id,primary_use,square_feet,year_built,floor_count,n_rows,selection_stratum
+2,0,Education,5376.0,1991,,8784,site_0_use_Education
+46,0,Retail,9045.0,2016,,8784,site_0_use_Retail
+48,0,Other,9569.0,1989,,7371,site_0_use_Other
+51,0,Parking,387638.0,2014,,8784,site_0_use_Parking
+58,0,Lodging/residential,83379.0,2013,,8784,site_0_use_Lodging/residential
+59,0,Entertainment/public assembly,81337.0,2005,,8784,site_0_use_Entertainment/public assembly
+75,0,Education,80942.0,2010,,8784,site_0_use_Education
+84,0,Office,4038.0,1986,,8784,site_0_use_Office
+96,0,Lodging/residential,200933.0,2006,,8784,site_0_use_Lodging/residential
+126,1,Education,21539.0,2004,5,8784,site_1_use_Education
+134,1,Lodging/residential,49589.0,1998,8,8784,site_1_use_Lodging/residential
+137,1,Entertainment/public assembly,64024.0,1967,6,8784,site_1_use_Entertainment/public assembly
+139,1,Public services,56629.0,1900,6,8784,site_1_use_Public services
+152,1,Office,10301.0,1970,2,8782,site_1_use_Office
+164,2,Warehouse/storage,12908.0,1979,,8737,site_2_use_Warehouse/storage
+170,2,Retail,45224.0,1982,,8783,site_2_use_Retail
+179,2,Food sales and service,24867.0,2012,,8781,site_2_use_Food sales and service
+186,2,Religious worship,1629.0,1948,,8781,site_2_use_Religious worship
+206,2,Public services,345837.0,1966,,8781,site_2_use_Public services
+208,2,Healthcare,36904.0,1934,,8762,site_2_use_Healthcare
+226,2,Office,74180.0,1930,,8782,site_2_use_Office
+240,2,Lodging/residential,111304.0,1964,,8782,site_2_use_Lodging/residential
+242,2,Parking,157113.0,1987,,8782,site_2_use_Parking
+249,2,Entertainment/public assembly,179449.0,1976,,8782,site_2_use_Entertainment/public assembly
+253,2,Education,65907.0,1964,,8782,site_2_use_Education
+305,3,Office,8637.0,,,8780,site_3_use_Office
+329,3,Entertainment/public assembly,3133.0,,,8782,site_3_use_Entertainment/public assembly
+356,3,Public services,4336.0,,,8782,site_3_use_Public services
+368,3,Retail,16500.0,,,8782,site_3_use_Retail
+373,3,Education,46484.0,1932,,8782,site_3_use_Education
+386,3,Entertainment/public assembly,17262.0,2003,,8758,site_3_use_Entertainment/public assembly
+425,3,Warehouse/storage,202829.0,1983,,8782,site_3_use_Warehouse/storage
+431,3,Parking,1760.0,,,8782,site_3_use_Parking
+443,3,Education,109000.0,1940,,8782,site_3_use_Education
+469,3,Public services,13044.0,1913,,7499,site_3_use_Public services
+485,3,Public services,22000.0,2007,,8782,site_3_use_Public services
+486,3,Education,86375.0,1903,,8758,site_3_use_Education
+501,3,Education,66404.0,,,8782,site_3_use_Education
+506,3,Other,34400.0,,,8781,site_3_use_Other
+510,3,Public services,4581.0,,,8758,site_3_use_Public services
+533,3,Lodging/residential,11900.0,,,8727,site_3_use_Lodging/residential
+538,3,Religious worship,10000.0,2010,,8782,site_3_use_Religious worship
+547,3,Healthcare,23903.0,,,8782,site_3_use_Healthcare
+558,3,Office,89315.0,,,8758,site_3_use_Office
+575,4,Technology/science,33167.0,1963,4,8769,site_4_use_Technology/science
+585,4,Public services,132394.0,1949,7,8782,site_4_use_Public services
+606,4,Utility,23432.0,1999,2,8750,site_4_use_Utility
+614,4,Lodging/residential,185200.0,1930,8,8783,site_4_use_Lodging/residential
+640,4,Entertainment/public assembly,36180.0,1966,9,8783,site_4_use_Entertainment/public assembly
+648,4,Education,154706.0,2009,11,8772,site_4_use_Education
+651,4,Parking,306140.0,2007,5,8747,site_4_use_Parking
+656,5,Other,5769.0,1976,1,8784,site_5_use_Other
+666,5,Entertainment/public assembly,12045.0,1976,1,8784,site_5_use_Entertainment/public assembly
+670,5,Healthcare,18471.0,1966,1,8784,site_5_use_Healthcare
+671,5,Lodging/residential,7589.0,1976,3,8784,site_5_use_Lodging/residential
+672,5,Manufacturing/industrial,6329.0,1919,2,8784,site_5_use_Manufacturing/industrial
+677,5,Public services,7072.0,1919,2,8784,site_5_use_Public services
+689,5,Office,11442.0,1976,1,8784,site_5_use_Office
+715,5,Education,23153.0,1976,2,8784,site_5_use_Education
+767,6,Office,70042.0,,,8564,site_6_use_Office
+778,6,Entertainment/public assembly,108339.0,,,8775,site_6_use_Entertainment/public assembly
+780,6,Education,120836.0,,,8775,site_6_use_Education
+787,6,Lodging/residential,278795.0,,,8775,site_6_use_Lodging/residential
+795,7,Education,387500.0,1960,6,8780,site_7_use_Education
+796,7,Education,226042.0,1965,2,8781,site_7_use_Education
+802,7,Education,290625.0,1995,19,8781,site_7_use_Education
+804,8,Office,175618.0,,1,7871,site_8_use_Office
+820,8,Entertainment/public assembly,648.0,,1,7919,site_8_use_Entertainment/public assembly
+823,8,Public services,35253.0,,1,8423,site_8_use_Public services
+829,8,Warehouse/storage,15879.0,,1,7775,site_8_use_Warehouse/storage
+840,8,Other,41861.0,,1,7631,site_8_use_Other
+863,8,Public services,19823.0,,1,8183,site_8_use_Public services
+885,9,Lodging/residential,40697.0,,,8775,site_9_use_Lodging/residential
+898,9,Public services,64749.0,,,8765,site_9_use_Public services
+904,9,Education,29961.0,,,8776,site_9_use_Education
+919,9,Education,31233.0,,,8763,site_9_use_Education
+944,9,Services,389641.0,,,8766,site_9_use_Services
+949,9,Lodging/residential,86786.0,,,8773,site_9_use_Lodging/residential
+953,9,Entertainment/public assembly,563782.0,,,8765,site_9_use_Entertainment/public assembly
+954,9,Education,305224.0,,,8783,site_9_use_Education
+980,9,Entertainment/public assembly,34819.0,,,8761,site_9_use_Entertainment/public assembly
+986,9,Office,34072.0,,,8769,site_9_use_Office
+1014,10,Office,43094.0,,3,7592,site_10_use_Office
+1018,10,Education,186840.0,,2,7801,site_10_use_Education
+1021,10,Entertainment/public assembly,213762.0,,2,8563,site_10_use_Entertainment/public assembly
+1026,10,Lodging/residential,88480.0,,1,8763,site_10_use_Lodging/residential
+1029,11,Education,152559.0,,,8773,site_11_use_Education
+1031,11,Education,93206.0,,,8693,site_11_use_Education
+1046,12,Education,201350.0,,,8784,site_12_use_Education
+1050,12,Office,50493.0,,2,8784,site_12_use_Office
+1052,12,Retail,45305.0,,2,8784,site_12_use_Retail
+1059,12,Entertainment/public assembly,116186.0,,,8692,site_12_use_Entertainment/public assembly
+1081,13,Manufacturing/industrial,11470.0,,,8784,site_13_use_Manufacturing/industrial
+1088,13,Education,287594.0,,,8769,site_13_use_Education
+1118,13,Services,26926.0,,,8784,site_13_use_Services
+1174,13,Other,27648.0,,,8784,site_13_use_Other
+1185,13,Office,129532.0,,,8783,site_13_use_Office
+1200,13,Entertainment/public assembly,545351.0,,,8612,site_13_use_Entertainment/public assembly
+1203,13,Lodging/residential,138602.0,,,8784,site_13_use_Lodging/residential
+1205,13,Parking,178270.0,,,8784,site_13_use_Parking
+1207,13,Healthcare,74443.0,,,8778,site_13_use_Healthcare
+1212,13,Public services,237518.0,,,8783,site_13_use_Public services
+1213,13,Warehouse/storage,39464.0,,,8784,site_13_use_Warehouse/storage
+1224,14,Office,23481.0,,,8784,site_14_use_Office
+1240,14,Public services,73277.0,,,8784,site_14_use_Public services
+1251,14,Education,104604.0,,,8784,site_14_use_Education
+1265,14,Food sales and service,35605.0,,,8694,site_14_use_Food sales and service
+1268,14,Office,43007.0,,,8783,site_14_use_Office
+1282,14,Healthcare,12500.0,,,8784,site_14_use_Healthcare
+1308,14,Lodging/residential,62279.0,,,8784,site_14_use_Lodging/residential
+1321,14,Entertainment/public assembly,370024.0,,,8784,site_14_use_Entertainment/public assembly
+1329,15,Technology/science,60100.0,1912,,7472,site_15_use_Technology/science
+1338,15,Education,31415.0,1912,,7470,site_15_use_Education
+1353,15,Religious worship,22201.0,,,7471,site_15_use_Religious worship
+1357,15,Office,21618.0,,,7452,site_15_use_Office
+1390,15,Entertainment/public assembly,93608.0,1951,,7472,site_15_use_Entertainment/public assembly
+1416,15,Lodging/residential,41236.0,1975,,7472,site_15_use_Lodging/residential
+1425,15,Utility,4071.0,1990,,7471,site_15_use_Utility
+1436,15,Manufacturing/industrial,11302.0,1937,,7472,site_15_use_Manufacturing/industrial
+1442,15,Public services,99541.0,1993,,7472,site_15_use_Public services

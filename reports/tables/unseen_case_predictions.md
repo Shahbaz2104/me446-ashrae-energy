@@ -1,0 +1,4 @@
+| case_id               |   building_id | timestamp           |   site_id | primary_use                   |   square_feet |   air_temperature_c |   actual_reading |   predicted_reading |   absolute_error |   percentage_error |
+|:----------------------|--------------:|:--------------------|----------:|:------------------------------|--------------:|--------------------:|-----------------:|--------------------:|-----------------:|-------------------:|
+| case_1_high_demand    |          1088 | 2016-12-19 15:00:00 |        13 | Education                     |     287594.00 |              -10.60 |          3427.60 |             3417.33 |            10.27 |               0.30 |
+| case_2_typical_demand |           386 | 2016-12-09 06:00:00 |         3 | Entertainment/public assembly |      17262.00 |                0.60 |            41.16 |               41.16 |             0.00 |               0.00 |

@@ -1,0 +1,604 @@
+{
+  "scope": "site-stratified subset (120 buildings, 16 sites, 2016)",
+  "n_rows": 1030967,
+  "n_buildings": 120,
+  "n_sites": 16,
+  "distribution": {
+    "median": 59.05,
+    "mean": 188.7834979810217,
+    "p95": 696.65,
+    "p99": 2454.0,
+    "max": 41552.0,
+    "zero_pct": 4.421480027973737
+  },
+  "temporal": {
+    "weekday_hourly_mean": 195.4383462036371,
+    "weekend_hourly_mean": 172.23984400288305,
+    "weekday_to_weekend_ratio": 1.134687199324018,
+    "peak_weekday_hour": 13,
+    "trough_weekday_hour": 3,
+    "monthly_mean": {
+      "Jan": 169.05344468307777,
+      "Feb": 181.13901297195392,
+      "Mar": 175.87975869475773,
+      "Apr": 166.60039042823496,
+      "May": 172.92607355932583,
+      "Jun": 192.1852722680256,
+      "Jul": 195.7448141854506,
+      "Aug": 215.13699740034258,
+      "Sep": 212.00407124711722,
+      "Oct": 191.4587288830853,
+      "Nov": 196.77358413707805,
+      "Dec": 196.00396171599394
+    },
+    "monthly_temperature": {
+      "Jan": 4.452258384005896,
+      "Feb": 7.393813336101416,
+      "Mar": 12.290814665435638,
+      "Apr": 13.904652379070688,
+      "May": 18.261883725635663,
+      "Jun": 23.253948387096774,
+      "Jul": 25.379074055106013,
+      "Aug": 24.725135905942608,
+      "Sep": 22.142198573238844,
+      "Oct": 16.95504062933201,
+      "Nov": 11.6628564738937,
+      "Dec": 6.621360259928129
+    },
+    "daily_max": {
+      "date": "2016-08-29",
+      "value": 249.8879082775625
+    },
+    "daily_min": {
+      "date": "2016-05-15",
+      "value": 146.8686
+    }
+  },
+  "temperature": {
+    "pearson_r": -0.07415895572521664,
+    "mean_reading_below_5C": 279.0359697386185,
+    "mean_reading_15_to_25C": 187.5872542368065,
+    "mean_reading_above_30C": 143.01447871277333,
+    "binned": [
+      {
+        "temp_bin": -28.0,
+        "mean": 573.2993673469388,
+        "median": 203.0,
+        "count": 147
+      },
+      {
+        "temp_bin": -26.0,
+        "mean": 615.9616076923077,
+        "median": 201.75,
+        "count": 130
+      },
+      {
+        "temp_bin": -24.0,
+        "mean": 626.3725,
+        "median": 165.26850000000002,
+        "count": 342
+      },
+      {
+        "temp_bin": -22.0,
+        "mean": 566.3536662436549,
+        "median": 146.233,
+        "count": 788
+      },
+      {
+        "temp_bin": -20.0,
+        "mean": 578.5335186074429,
+        "median": 170.18900000000002,
+        "count": 833
+      },
+      {
+        "temp_bin": -18.0,
+        "mean": 562.0918111201962,
+        "median": 168.02200000000002,
+        "count": 1223
+      },
+      {
+        "temp_bin": -16.0,
+        "mean": 563.2998370006146,
+        "median": 174.987,
+        "count": 1627
+      },
+      {
+        "temp_bin": -14.0,
+        "mean": 533.4263236103467,
+        "median": 160.289,
+        "count": 1817
+      },
+      {
+        "temp_bin": -12.0,
+        "mean": 448.5279528449968,
+        "median": 141.525,
+        "count": 3058
+      },
+      {
+        "temp_bin": -10.0,
+        "mean": 416.9957333144637,
+        "median": 144.945,
+        "count": 3533
+      },
+      {
+        "temp_bin": -8.0,
+        "mean": 371.17113772269556,
+        "median": 122.643,
+        "count": 7746
+      },
+      {
+        "temp_bin": -6.0,
+        "mean": 354.52051216857706,
+        "median": 121.07,
+        "count": 8637
+      },
+      {
+        "temp_bin": -4.0,
+        "mean": 280.9970574003591,
+        "median": 99.0,
+        "count": 13925
+      },
+      {
+        "temp_bin": -2.0,
+        "mean": 282.3367605119207,
+        "median": 97.0,
+        "count": 19378
+      },
+      {
+        "temp_bin": -0.0,
+        "mean": 279.94304030034465,
+        "median": 85.0,
+        "count": 24372
+      },
+      {
+        "temp_bin": 2.0,
+        "mean": 245.61602806610094,
+        "median": 77.75,
+        "count": 33585
+      },
+      {
+        "temp_bin": 4.0,
+        "mean": 171.88807836420153,
+        "median": 51.2913,
+        "count": 46326
+      },
+      {
+        "temp_bin": 6.0,
+        "mean": 171.1702209439528,
+        "median": 57.754999999999995,
+        "count": 41358
+      },
+      {
+        "temp_bin": 8.0,
+        "mean": 144.31801982071403,
+        "median": 40.689,
+        "count": 64478
+      },
+      {
+        "temp_bin": 10.0,
+        "mean": 165.574442334929,
+        "median": 56.675,
+        "count": 50554
+      },
+      {
+        "temp_bin": 12.0,
+        "mean": 155.2993977551292,
+        "median": 47.079499999999996,
+        "count": 75060
+      },
+      {
+        "temp_bin": 14.0,
+        "mean": 175.92587623633395,
+        "median": 56.1,
+        "count": 60643
+      },
+      {
+        "temp_bin": 16.0,
+        "mean": 168.03504060167856,
+        "median": 48.5475,
+        "count": 86026
+      },
+      {
+        "temp_bin": 18.0,
+        "mean": 191.70332933733593,
+        "median": 56.2517,
+        "count": 75951
+      },
+      {
+        "temp_bin": 20.0,
+        "mean": 193.99969003787064,
+        "median": 54.47,
+        "count": 60469
+      },
+      {
+        "temp_bin": 22.0,
+        "mean": 197.31048455152524,
+        "median": 59.9,
+        "count": 71431
+      },
+      {
+        "temp_bin": 24.0,
+        "mean": 188.93128845007743,
+        "median": 64.05,
+        "count": 76849
+      },
+      {
+        "temp_bin": 26.0,
+        "mean": 183.78198822089848,
+        "median": 63.8194,
+        "count": 52712
+      },
+      {
+        "temp_bin": 28.0,
+        "mean": 174.74544711489068,
+        "median": 65.2648,
+        "count": 52563
+      },
+      {
+        "temp_bin": 30.0,
+        "mean": 163.70045169432677,
+        "median": 66.35,
+        "count": 28802
+      },
+      {
+        "temp_bin": 32.0,
+        "mean": 160.09145800413577,
+        "median": 71.0,
+        "count": 28048
+      },
+      {
+        "temp_bin": 34.0,
+        "mean": 142.17632842953793,
+        "median": 68.295,
+        "count": 13894
+      },
+      {
+        "temp_bin": 36.0,
+        "mean": 117.98638825580237,
+        "median": 57.68,
+        "count": 10039
+      },
+      {
+        "temp_bin": 38.0,
+        "mean": 99.48866970064725,
+        "median": 48.52,
+        "count": 4944
+      },
+      {
+        "temp_bin": 40.0,
+        "mean": 86.55435614109648,
+        "median": 44.61,
+        "count": 2353
+      },
+      {
+        "temp_bin": 42.0,
+        "mean": 84.62627362736274,
+        "median": 40.77,
+        "count": 2222
+      },
+      {
+        "temp_bin": 44.0,
+        "mean": 83.47173553719009,
+        "median": 39.955,
+        "count": 726
+      }
+    ]
+  },
+  "temperature_by_site": {
+    "0": {
+      "pearson_r": 0.23370179615255038,
+      "mean_reading_below_10C": 22.07028993469074,
+      "mean_reading_10_to_25C": 92.29473403099924,
+      "mean_reading_above_25C": 151.67265646083573
+    },
+    "1": {
+      "pearson_r": 0.04577501937903583,
+      "mean_reading_below_10C": 64.79741072528407,
+      "mean_reading_10_to_25C": 65.94353221122113,
+      "mean_reading_above_25C": 79.76399309878214
+    },
+    "2": {
+      "pearson_r": -0.020258025078833324,
+      "mean_reading_below_10C": 98.61734222863325,
+      "mean_reading_10_to_25C": 92.83166130131353,
+      "mean_reading_above_25C": 91.13019867412899
+    },
+    "3": {
+      "pearson_r": 0.04251757329603886,
+      "mean_reading_below_10C": 77.4620115339834,
+      "mean_reading_10_to_25C": 74.81197041807243,
+      "mean_reading_above_25C": 91.42639310387368
+    },
+    "4": {
+      "pearson_r": -0.011562818460643599,
+      "mean_reading_below_10C": 253.33284635526104,
+      "mean_reading_10_to_25C": 252.97773702054857,
+      "mean_reading_above_25C": 243.86898355342137
+    },
+    "5": {
+      "pearson_r": -0.02286074929862989,
+      "mean_reading_below_10C": 10.700217904701251,
+      "mean_reading_10_to_25C": 9.779106405542986,
+      "mean_reading_above_25C": 12.079382352941177
+    },
+    "6": {
+      "pearson_r": -0.0680650315861062,
+      "mean_reading_below_10C": 357.22184708694886,
+      "mean_reading_10_to_25C": 338.1203566351374,
+      "mean_reading_above_25C": 324.72057487753676
+    },
+    "7": {
+      "pearson_r": -0.06523320408737508,
+      "mean_reading_below_10C": 1213.9927538169284,
+      "mean_reading_10_to_25C": 1107.7423887515451,
+      "mean_reading_above_25C": 959.1748770277342
+    },
+    "8": {
+      "pearson_r": -0.012866792040466327,
+      "mean_reading_below_10C": 125.5119559375,
+      "mean_reading_10_to_25C": 112.4740588893147,
+      "mean_reading_above_25C": 113.65877066767564
+    },
+    "9": {
+      "pearson_r": 0.028077139919532833,
+      "mean_reading_below_10C": 147.27856295177475,
+      "mean_reading_10_to_25C": 174.72253245415206,
+      "mean_reading_above_25C": 180.4159828515926
+    },
+    "10": {
+      "pearson_r": -0.13408127208737902,
+      "mean_reading_below_10C": 123.26516153535081,
+      "mean_reading_10_to_25C": 112.93559243460167,
+      "mean_reading_above_25C": 105.56844659325533
+    },
+    "11": {
+      "pearson_r": 0.40599769466420393,
+      "mean_reading_below_10C": 265.7432299894403,
+      "mean_reading_10_to_25C": 335.820468696331,
+      "mean_reading_above_25C": 377.1696386890488
+    },
+    "12": {
+      "pearson_r": 0.09570025535403118,
+      "mean_reading_below_10C": 143.12077035109093,
+      "mean_reading_10_to_25C": 155.99046525222553,
+      "mean_reading_above_25C": 213.07762499999998
+    },
+    "13": {
+      "pearson_r": 0.05610914987192886,
+      "mean_reading_below_10C": 455.6165804052155,
+      "mean_reading_10_to_25C": 534.2334710807061,
+      "mean_reading_above_25C": 692.3666566646742
+    },
+    "14": {
+      "pearson_r": -0.03026118538328432,
+      "mean_reading_below_10C": 216.1857578920273,
+      "mean_reading_10_to_25C": 204.71795410685547,
+      "mean_reading_above_25C": 205.78664157088122
+    },
+    "15": {
+      "pearson_r": -0.029535890101195207,
+      "mean_reading_below_10C": 54.25436349211607,
+      "mean_reading_10_to_25C": 52.24462827195863,
+      "mean_reading_above_25C": 47.31001269344461
+    }
+  },
+  "primary_use": {
+    "Religious worship": {
+      "median": 3.75,
+      "mean": 4.5927548573939445,
+      "rows": 25034
+    },
+    "Manufacturing/industrial": {
+      "median": 12.2085,
+      "mean": 13.056304692492011,
+      "rows": 25040
+    },
+    "Warehouse/storage": {
+      "median": 23.1667,
+      "mean": 56.2570497359,
+      "rows": 34078
+    },
+    "Parking": {
+      "median": 24.055,
+      "mean": 37.04348263634085,
+      "rows": 43879
+    },
+    "Services": {
+      "median": 32.344,
+      "mean": 72.26037623931623,
+      "rows": 17550
+    },
+    "Office": {
+      "median": 36.8309,
+      "mean": 72.03048168868897,
+      "rows": 128052
+    },
+    "Other": {
+      "median": 38.6739,
+      "mean": 114.09413448042369,
+      "rows": 41351
+    },
+    "Retail": {
+      "median": 44.13,
+      "mean": 56.93210861298495,
+      "rows": 35133
+    },
+    "Healthcare": {
+      "median": 49.29,
+      "mean": 168.61404205513784,
+      "rows": 43890
+    },
+    "Utility": {
+      "median": 52.9025,
+      "mean": 66.33852473953517,
+      "rows": 16221
+    },
+    "Technology/science": {
+      "median": 54.3,
+      "mean": 105.78063104488639,
+      "rows": 16241
+    },
+    "Food sales and service": {
+      "median": 56.1,
+      "mean": 74.92204319313305,
+      "rows": 17475
+    },
+    "Lodging/residential": {
+      "median": 78.445,
+      "mean": 114.97521328874409,
+      "rows": 121554
+    },
+    "Public services": {
+      "median": 89.25,
+      "mean": 156.91950735661266,
+      "rows": 119362
+    },
+    "Entertainment/public assembly": {
+      "median": 116.25,
+      "mean": 204.26055101088534,
+      "rows": 137800
+    },
+    "Education": {
+      "median": 157.2,
+      "mean": 485.2374288439659,
+      "rows": 208307
+    }
+  },
+  "building_size": {
+    "log10_pearson_r": 0.7495796297273307,
+    "n_buildings": 120,
+    "median_square_feet": 45264.5
+  },
+  "correlation": {
+    "Reading": {
+      "reading_r": 1.0,
+      "air_temp_r": -0.07206081435873884
+    },
+    "Air temp": {
+      "reading_r": -0.07206081435873884,
+      "air_temp_r": 1.0
+    },
+    "Dew temp": {
+      "reading_r": -0.05295902074617326,
+      "air_temp_r": 0.7620623602943164
+    },
+    "Wind speed": {
+      "reading_r": -0.00965904001218097,
+      "air_temp_r": -0.06983341411492938
+    },
+    "Cloud cover": {
+      "reading_r": 0.008034977205422561,
+      "air_temp_r": 0.015006575550393347
+    },
+    "Precipitation": {
+      "reading_r": 0.0064597583437247304,
+      "air_temp_r": -0.013614687572794501
+    },
+    "Pressure": {
+      "reading_r": -0.011927836349412236,
+      "air_temp_r": -0.2630299870743393
+    },
+    "Floor area": {
+      "reading_r": 0.43422921143454674,
+      "air_temp_r": -0.01248021803242258
+    },
+    "Year built": {
+      "reading_r": 0.02807237775815148,
+      "air_temp_r": 0.15314559632756802
+    },
+    "Floors": {
+      "reading_r": 0.29548530653318295,
+      "air_temp_r": -0.12520928347819846
+    },
+    "Hour": {
+      "reading_r": 0.01472639883106026,
+      "air_temp_r": 0.12213292915774067
+    },
+    "Month": {
+      "reading_r": 0.021833254680447375,
+      "air_temp_r": 0.1732844805276447
+    }
+  },
+  "site": {
+    "0": {
+      "mean_reading": 112.5427959223626,
+      "median_reading": 19.6611,
+      "mean_temp": 22.96843372873279
+    },
+    "1": {
+      "mean_reading": 65.70788731044219,
+      "median_reading": 62.7,
+      "mean_temp": 11.711498870198344
+    },
+    "2": {
+      "mean_reading": 92.31049360335629,
+      "median_reading": 58.34,
+      "mean_temp": 24.94543844018068
+    },
+    "3": {
+      "mean_reading": 78.94645818850086,
+      "median_reading": 44.81,
+      "mean_temp": 15.440411866098158
+    },
+    "4": {
+      "mean_reading": 252.8834838546248,
+      "median_reading": 163.779,
+      "mean_temp": 15.24012773098291
+    },
+    "5": {
+      "mean_reading": 10.239480359175774,
+      "median_reading": 8.11,
+      "mean_temp": 10.867047401484866
+    },
+    "6": {
+      "mean_reading": 342.11495050015765,
+      "median_reading": 244.35,
+      "mean_temp": 15.248969234739228
+    },
+    "7": {
+      "mean_reading": 1156.106578467846,
+      "median_reading": 749.395,
+      "mean_temp": 7.892911892226696
+    },
+    "8": {
+      "mean_reading": 113.4234946027363,
+      "median_reading": 75.0,
+      "mean_temp": 22.59513827873311
+    },
+    "9": {
+      "mean_reading": 173.7370860700602,
+      "median_reading": 45.0,
+      "mean_temp": 21.364824997718355
+    },
+    "10": {
+      "mean_reading": 116.64644803325285,
+      "median_reading": 116.75,
+      "mean_temp": 11.8734901384295
+    },
+    "11": {
+      "mean_reading": 299.52444778426656,
+      "median_reading": 284.0,
+      "mean_temp": 7.818749270115613
+    },
+    "12": {
+      "mean_reading": 149.44355351843396,
+      "median_reading": 137.438,
+      "mean_temp": 9.841977782867612
+    },
+    "13": {
+      "mean_reading": 510.24313898308594,
+      "median_reading": 92.0,
+      "mean_temp": 9.883202306623245
+    },
+    "14": {
+      "mean_reading": 209.60548883031018,
+      "median_reading": 126.0,
+      "mean_temp": 13.252770053475937
+    },
+    "15": {
+      "mean_reading": 52.75131687046293,
+      "median_reading": 17.775,
+      "mean_temp": 10.84286643639349
+    }
+  }
+}

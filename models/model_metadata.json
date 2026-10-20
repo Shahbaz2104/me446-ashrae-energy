@@ -1,0 +1,74 @@
+{
+  "model_name": "HistGradientBoosting",
+  "selection_rule": "Lowest validation RMSE; test period held out until after selection.",
+  "scope": "local_subset",
+  "target": "meter_reading",
+  "meter": 0,
+  "features": [
+    "primary_use",
+    "site_id",
+    "building_id",
+    "square_feet",
+    "year_built",
+    "floor_count",
+    "building_age",
+    "hour",
+    "dayofweek",
+    "month",
+    "is_weekend",
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos",
+    "air_temperature",
+    "dew_temperature",
+    "wind_speed",
+    "cloud_coverage",
+    "precip_depth_1_hr",
+    "sea_level_pressure",
+    "cloud_coverage_missing",
+    "precip_depth_1_hr_missing",
+    "sea_level_pressure_missing"
+  ],
+  "categorical_features": [
+    "primary_use",
+    "site_id",
+    "building_id"
+  ],
+  "train_period": [
+    "2016-01-01 00:00:00",
+    "2016-09-30 23:00:00"
+  ],
+  "validation_period": [
+    "2016-10-01 00:00:00",
+    "2016-11-30 23:00:00"
+  ],
+  "test_period": [
+    "2016-12-01 00:00:00",
+    "2016-12-31 23:00:00"
+  ],
+  "n_train": 769122,
+  "n_validation": 174537,
+  "n_test": 87308,
+  "random_seed": 42,
+  "random_forest_fit_rows": 250000,
+  "best_validation_rmse": 165.7353934798173,
+  "test_metrics": {
+    "n_rows": 87308.0,
+    "mae": 33.19726118340291,
+    "rmse": 69.7765805357386,
+    "r2": 0.9704548789357976,
+    "rmsle": 0.5906581233676191,
+    "fit_seconds": 53.91,
+    "predict_seconds": 7.316
+  },
+  "feature_consistency_check": "passed",
+  "packages": {
+    "python": "3.12.3",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "trained_at_utc": "2026-10-20T13:09:05.336695+00:00"
+}

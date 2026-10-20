@@ -1,0 +1,3 @@
+case_id,building_id,timestamp,site_id,primary_use,square_feet,air_temperature_c,actual_reading,predicted_reading,absolute_error,percentage_error
+case_1_high_demand,1088,2016-12-19 15:00:00,13,Education,287594.0,-10.6,3427.6,3417.325314751497,10.27468524850292,0.29976325266959153
+case_2_typical_demand,386,2016-12-09 06:00:00,3,Entertainment/public assembly,17262.0,0.6,41.16,41.16035978437768,0.0003597843776859122,0.0008741117047762688

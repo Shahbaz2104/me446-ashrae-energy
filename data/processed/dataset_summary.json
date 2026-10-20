@@ -1,0 +1,34 @@
+{
+  "scope": "local_subset",
+  "output": "/home/shahbaz/Desktop/AI IOT CEP/data/processed/model_dataset.parquet",
+  "total_rows": 1030967,
+  "splits": [
+    {
+      "split": "test",
+      "n_rows": 87308,
+      "n_buildings": 120,
+      "first_timestamp": "2016-12-01 00:00:00",
+      "last_timestamp": "2016-12-31 23:00:00",
+      "mean_reading": 196.0039617159946,
+      "zero_readings": 126
+    },
+    {
+      "split": "train",
+      "n_rows": 769122,
+      "n_buildings": 120,
+      "first_timestamp": "2016-01-01 00:00:00",
+      "last_timestamp": "2016-09-30 23:00:00",
+      "mean_reading": 186.76453341680283,
+      "zero_readings": 44796
+    },
+    {
+      "split": "validation",
+      "n_rows": 174537,
+      "n_buildings": 120,
+      "first_timestamp": "2016-10-01 00:00:00",
+      "last_timestamp": "2016-11-30 23:00:00",
+      "mean_reading": 194.06848520886453,
+      "zero_readings": 662
+    }
+  ]
+}
